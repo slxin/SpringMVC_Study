@@ -17,7 +17,7 @@
 
 <font color="red">Sorry</font>，没有${username }这个用户!
 <br />
-<a href="index.jsp">重试一下！</a>
+<a href="../../index.jsp">重试一下！</a>
 
 </body>
 </html>

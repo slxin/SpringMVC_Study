@@ -26,10 +26,10 @@ public class LoginController {
 
         if (username.equals("admin") && password.equals("admin")) {
             model.addAttribute("username", username);
-            return "success.jsp";
+            return "success";
         } else {
             model.addAttribute("username", username);
-            return "fail.jsp";
+            return "fail";
         }
     }
 
